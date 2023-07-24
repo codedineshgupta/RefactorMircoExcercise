@@ -1,4 +1,4 @@
-namespace RefactorMircoExcercise.TicketDispenser
+namespace RefactorMircoExcercise.TurnTicketDispenser
 {
     public class TurnTicket
     {
