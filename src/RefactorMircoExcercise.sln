@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TirePressureMonitoringSystem", "TirePressureMonitoringSystem", "{DFD7120D-D6EE-4D10-9857-55725AFC9CB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TirePressureMonitoringSystem", "TirePressureMonitoringSystem\TirePressureMonitoringSystem.csproj", "{E6038D94-6BE8-4781-B1BE-549398A61166}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TirePressureMonitoringSystem.Test", "TirePressureMonitoringSystem.Test\TirePressureMonitoringSystem.Test.csproj", "{F32A65C0-FA81-46E6-AC53-B8D9D2A4588D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6038D94-6BE8-4781-B1BE-549398A61166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6038D94-6BE8-4781-B1BE-549398A61166}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6038D94-6BE8-4781-B1BE-549398A61166}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6038D94-6BE8-4781-B1BE-549398A61166}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F32A65C0-FA81-46E6-AC53-B8D9D2A4588D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F32A65C0-FA81-46E6-AC53-B8D9D2A4588D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F32A65C0-FA81-46E6-AC53-B8D9D2A4588D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F32A65C0-FA81-46E6-AC53-B8D9D2A4588D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E6038D94-6BE8-4781-B1BE-549398A61166} = {DFD7120D-D6EE-4D10-9857-55725AFC9CB1}
+		{F32A65C0-FA81-46E6-AC53-B8D9D2A4588D} = {DFD7120D-D6EE-4D10-9857-55725AFC9CB1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {07E88D6C-ED9B-4FA8-9EF7-3AFE27E9BE8B}
+	EndGlobalSection
+EndGlobal
