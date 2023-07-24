@@ -7,12 +7,16 @@ namespace RefactorMircoExcercise.TelemetrySystem
     {
         private const string DiagnosticChannelConnectionString = "*111#";
         
-        private readonly TelemetryClient _telemetryClient;
+        private readonly ITelemetryClient _telemetryClient;
         private string _diagnosticInfo = string.Empty;
 
-        public TelemetryDiagnosticControls()
+        public TelemetryDiagnosticControls():this(new TelemetryClient())
         {
-            _telemetryClient = new TelemetryClient();
+           
+        }
+        public TelemetryDiagnosticControls(ITelemetryClient telemetryClient)
+        {
+            _telemetryClient = telemetryClient ?? throw new ArgumentNullException(nameof(telemetryClient));
         }
 
         public string DiagnosticInfo
